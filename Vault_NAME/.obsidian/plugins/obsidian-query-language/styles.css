@@ -1,0 +1,39 @@
+/* OQL badge to show this is the result */
+.oql-badge::before{
+    content: "OQL";
+    background-color: #d1ecf1;
+    border-radius: 5px;
+    color: #0c5460;
+    border-color: #bee5eb;
+    border: 1px solid;
+    font-size: 11px;
+    margin-top: 0px;
+    min-width: 20px;
+    padding: 2px;
+    margin-right: 10px;
+    position: absolute;
+    text-align: center;
+    right: 0px;
+}
+
+.oql-debug {
+    max-height: 250px;
+    overflow-y: scroll;
+}
+
+.oql-error {
+    padding: 10px;
+    border-radius: 3px;
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+
+.oql-warning {
+    padding: 10px;
+    border-radius: 3px;
+    color: #945a13;
+    background-color: #e1dcb1;
+    border-color: #ffc814;
+    margin-bottom: 10px
+}
