@@ -4,6 +4,7 @@
 }
 .hider-ribbon .workspace-ribbon.mod-right {
   visibility:hidden;
+  position:absolute;
 }
 .hider-ribbon .workspace-split.mod-right-split {
   margin-right:0;

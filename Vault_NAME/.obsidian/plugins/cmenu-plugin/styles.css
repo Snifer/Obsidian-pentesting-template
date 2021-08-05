@@ -1,0 +1,51 @@
+#cMenuModalBar {
+  bottom: 4.25em;
+  padding: 3px;
+  display: grid;
+  margin: 0 auto;
+  width: auto;
+  height: auto;
+  min-width: fit-content;
+  position: absolute;
+  user-select: none;
+  border-radius: 6px;
+  justify-content: space-around;
+  z-index: var(--layer-status-bar);
+  background-color: var(--background-primary);
+  box-shadow: 0px 3px 25px rgb(31 38 135 / 10%);
+  border: 1px solid var(--background-modifier-border);
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+#cMenuModalBar span {
+  padding: 5px;
+  display: flex;
+}
+
+#cMenuModalBar div {
+  margin: 2px;
+  margin-right: 3px;
+  margin-left: 3px;
+  cursor: pointer;
+  position: relative;
+  border-radius: 3px;
+  transition: 250ms ease-in-out;
+  background-color: var(--background-primary-alt);
+}
+
+#cMenuModalBar div:hover {
+  background-color: var(--background-secondary);
+}
+
+#cMenuModalBar div svg {
+  height: 1.3em;
+  width: 1.3em;
+  fill: var(--text-normal);
+}
+
+.cDonationSection {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  color: var(--text-normal);
+}
